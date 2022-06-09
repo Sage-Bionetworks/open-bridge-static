@@ -69,8 +69,8 @@ const Science: FunctionComponent<{}> = () => {
             mb={10}
             variant="largeBodyCopy"
             color={theme.palette.text.secondary}>
-            Mobile Toolbox assesements have been validated against gold
-            standard.
+            Mobile Toolbox assessments have been validated against gold
+            standards.
           </Typography>
           <Box mb={10}>
             <Button variant="contained" color="primary" href="/assessments">
@@ -85,7 +85,7 @@ const Science: FunctionComponent<{}> = () => {
             <Icon2 />
           </IconHolder>
           <Typography component="p" variant="largeBodyCopy" mb={10}>
-            Remote assessments created by domain experts.
+            Remote assessments created by scientific and technical experts.
           </Typography>
           <Box mb={10}>
             <Button variant="contained" color="primary" href="/about-us">
@@ -102,7 +102,7 @@ const Science: FunctionComponent<{}> = () => {
           </IconHolder>
 
           <Typography component="p" variant="largeBodyCopy" mb={10}>
-            We transparently publish our methods and data for comparison.
+            We transparently publish our methods and data for sharing with the research community. Coming soon!
           </Typography>
           <Button variant="contained" color="primary" href="" disabled={true}>
             {' '}
