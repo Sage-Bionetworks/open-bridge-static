@@ -15,73 +15,24 @@ const Partners: FunctionComponent<{}> = () => {
         Our Contributors
       </Typography>
       <Typography variant="body1" maxWidth={'600px'} component="p" mb={25}>
-        Mobile Toolbox comprises a team of clinical colleagues, cognition 
+        Open Bridge comprises a team of clinical colleagues, cognition 
         researchers, measurement scientists and technical experts with 
         proven success in multiple large-scale validation and development projects. 
-        Co-Principal Investigators Drs. Richard Gershon and Aaron Kaat lead the 
-        development and validation of mobile versions of cognitive assessments at 
-        Northwestern University, and Dr. Mike Kellen leads the development of the 
-        Mobile Toolbox platform at Sage Bionetworks.  Dr. Martin Sliwinski of 
-        Penn State University leads the integration of Mobile Monitoring of 
-        Cognitive Change (M2C2) into the Mobile Toolbox. 
+        Dr. Mike Kellen leads the development of the 
+        Mobile Toolbox platform at Sage Bionetworks. 
       </Typography>
       <Grid container rowSpacing={15} columnSpacing={{xs: 4, lg: 10}} mb={10}>
         <Grid item xs={12} lg={4} textAlign="center">
-          <Northwestern_Logo />
-        </Grid>
-        <Grid item xs={12} lg={4} textAlign="center">
           <SageBio_Logo />
         </Grid>
-        <Grid item xs={12} lg={4} textAlign="center">
-          <img src={pensate} />
-        </Grid>
-        <Grid item xs={12} textAlign="center">
+\        <Grid item xs={12} textAlign="center">
           <Button color="primary" variant="contained" href="/about-us">
             View Our Contributors
           </Button>
         </Grid>
       </Grid>
 
-      {/*
-      <Grid container rowSpacing={5} columnSpacing={{xs: 4, lg: 10}}>
-        <Grid item xs={12} lg={4}>
-          <Northwestern_Logo />
-        </Grid>
-        <Grid item xs={12} lg={8}>
-          <Typography component="p" variant="body2" paragraph>
-            The Northwestern University Gershon and Mangravite are at
-            Northwestern University and Sage Bionetworks respectively. Dr.
-            Martin Sliwinski of Penn State University leads the integration of
-            the Mobile Toolbox collaboration with Mobile Monitoring of Cognitive
-            Change (M2C2).
-          </Typography>
-        </Grid>
-        <Grid item xs={12} lg={4}>
-          <SageBio_Logo />
-        </Grid>
-        <Grid item xs={12} lg={8}>
-          <Typography component="p" variant="body2" paragraph>
-            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
-            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
-            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
-            voluptate aute id deserunt nisi. Sunt qui esse pariatur duis
-            deserunt mollit dolore cillum minim tempor enim. Elit aute irure
-            tempor cupidatat incididunt sint deserunt ut voluptate aute id{' '}
-          </Typography>
-        </Grid>
-        <Grid item xs={12} lg={4}>
-          <PenState_Logo />
-        </Grid>
-        <Grid item xs={12} lg={8}>
-          <Typography component="p" variant="body2" paragraph>
-            he Pennsylvania State University Sliwinski and Mangravite are at
-            Northwestern University and Sage Bionetworks respectively. Dr.
-            Martin Sliwinski of Penn State University leads the integration of
-            the Mobile Toolbox collaboration with Mobile Monitoring of Cognitive
-            Change (M2C2)
-          </Typography>
-        </Grid>
-  </Grid>*/}
+      {}
     </PartnersContainer>
   )
 }

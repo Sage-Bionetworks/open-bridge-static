@@ -80,7 +80,7 @@ const info = [
   {
     title: 'How It Works',
     intro:
-      'Data is encrypted and uploaded to the Mobile Toolbox platform for analysis.',
+      'Data is encrypted and uploaded to the Open Bridge platform for analysis.',
     /* body: 'Data is encrypted and uploaded from each participant’s phone while it is connected to the internet with a WiFi or cellular data connection. Data is processed and curated and is available under controlled access.', */
     link: 'www.google.com',
     image: <Step4 width="100%" />,
