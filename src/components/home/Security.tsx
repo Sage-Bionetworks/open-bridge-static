@@ -23,7 +23,7 @@ const Security: FunctionComponent<{}> = () => {
       <Grid container rowSpacing={5} spacing={5}>
         <Grid item xs={7}>
           <Typography variant="h3" sx={{opacity: 0.6}}>
-            The Mobile toolbox platform provides the highest levels of modern
+            The Open Bridge platform provides the highest levels of modern
             security standards built-in from the ground up. We offer industry
             leading data governance best practices and patterns.
           </Typography>

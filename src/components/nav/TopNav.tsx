@@ -64,7 +64,7 @@ const TopNav: FunctionComponent<AppTopNavProps> = ({
             mb: 2,
           }}>
           <a href="/">
-            <LogoSmall title="Mobile Toolbox" style={{ paddingLeft: '16px' }} />
+            <LogoSmall title="Open Bridge" style={{ paddingLeft: '16px' }} />
           </a>
           <MobileNav
             islight={islight}
@@ -88,7 +88,7 @@ const TopNav: FunctionComponent<AppTopNavProps> = ({
             mb: 3,
           }}>
           <a href="/">
-            <LogoLight title="Mobile Toolbox" style={{ paddingLeft: '16px' }} />
+            <LogoLight title="Open Bridge" style={{ paddingLeft: '16px' }} />
           </a>
 
           <Toolbar
