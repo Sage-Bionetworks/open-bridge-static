@@ -1,0 +1,16 @@
+name: deploy-open-bridge-static-staging
+
+on:
+  push:
+    branches: ["staging"]
+
+jobs:
+  deploy:
+    permissions:
+      id-token: write
+      contents: read
+    uses: ./.github/workflows/build-and-deploy.yaml
+    with:
+      branch: ${{ github.ref_name }}
+      destination_bucket: staging-bridgedigital-health-static-websitebucket-16zqwmvoy16o
+      distribution_id: E2ZGRN11WZ963H
