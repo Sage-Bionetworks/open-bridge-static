@@ -67,12 +67,12 @@ const Footer: React.FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
               <strong>Legal</strong>
 
               <a
-                href="https://studies.mobiletoolbox.org/MTB-ToS-v2-210923.pdf"
+                href="https://studies.bridgedigital.health/MTB-ToS-v2-210923.pdf"
                 target="_blank">
                 Terms
               </a>
               <a
-                href="https://studies.mobiletoolbox.org/MTBPrivacyPolicy.pdf"
+                href="https://studies.bridgedigital.health/MTBPrivacyPolicy.pdf"
                 target="_blank">
                 Privacy
               </a>
@@ -92,12 +92,12 @@ const Footer: React.FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
           <a href="/about-us">About Us</a>
           <a href="/assessments">Assessments</a>
           <a
-            href="https://studies.mobiletoolbox.org/MTB-ToS-v2-210923.pdf"
+            href="https://studies.bridgedigital.health/MTB-ToS-v2-210923.pdf"
             target="_blank">
             Terms
           </a>
           <a
-            href="https://studies.mobiletoolbox.org/MTBPrivacyPolicy.pdf"
+            href="https://studies.bridgedigital.health/MTBPrivacyPolicy.pdf"
             target="_blank">
             Privacy
           </a>

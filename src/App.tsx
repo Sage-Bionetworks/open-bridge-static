@@ -72,7 +72,7 @@ function App() {
           <Typography component={'p'} mt={2} lineHeight="20px">
             If you are a Beta Partner or Early Adopter and already have an account, please sign in at {' '}
             <Link
-              href="https://studies.mobiletoolbox.org/"
+              href="https://studies.bridgedigital.health/"
               target="_blank"
               sx={{ fontSize: '16px', lineHeight: '20px' }}>
               <strong>Mobile Toolbox</strong>
