@@ -1,5 +1,5 @@
-import { ReactComponent as LogoSmall } from '@assets/mtb_logo_small.svg'
-import { ReactComponent as LogoLight } from '@assets/mtb_logo_static.svg'
+import { ReactComponent as LogoSmall } from '@assets/site_logo_small.svg'
+import { ReactComponent as LogoLight } from '@assets/site_logo_static.svg'
 import { Box, Hidden } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import Toolbar from '@mui/material/Toolbar'

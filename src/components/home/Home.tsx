@@ -1,4 +1,4 @@
-import {ReactComponent as MTBImage} from '@assets/mtb_pastel.svg'
+import {ReactComponent as PastelLogoImage} from '@assets/site_logo_pastel.svg'
 import PageShell from '@components/widgets/PageShell'
 import {Section} from '@components/widgets/Styled'
 import {Box, Grid, Hidden, Typography} from '@mui/material'
@@ -36,7 +36,7 @@ const Home: FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
                 xs={5}
                 textAlign="right"
                 display={{xs: 'none', lg: 'block'}}>
-                <MTBImage />
+                <PastelLogoImage />
               </Box>
             </Grid>
           </Section>

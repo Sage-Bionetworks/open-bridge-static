@@ -1,4 +1,4 @@
-import mtb_a from '@assets/mtb_assessment.svg'
+import mtb_a from '@assets/site_logo_assessment.svg'
 import {styled} from '@mui/material'
 import Card from '@mui/material/Card'
 import CardActions from '@mui/material/CardActions'

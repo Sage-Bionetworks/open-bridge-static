@@ -1,4 +1,4 @@
-import {ReactComponent as MTB_Logo} from '@assets/mtb_logo_white.svg'
+import {ReactComponent as White_Logo} from '@assets/site_logo_white.svg'
 import {Box, Divider, Hidden, styled, Typography} from '@mui/material'
 import theme, {colors} from '@style/theme'
 
@@ -44,7 +44,7 @@ const Footer: React.FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
             alignItems: 'center',
             flexWrap: 'wrap',
           }}>
-          <MTB_Logo title="MTB" />
+          <White_Logo title="Open Bridge" />
           <Box
             display="flex"
             sx={{
