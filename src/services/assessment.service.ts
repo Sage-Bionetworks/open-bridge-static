@@ -3,7 +3,7 @@ import { Assessment } from '@typedefs/types'
 import Utility from '../utility'
 
 
-const MTB_TAG = 'Mobile Toolbox'
+const SHARED_ASSESSMENT_TAG = 'Open Bridge'
 
 const endpoints = {
     assessment: '/v1/assessments/:id',
@@ -22,7 +22,7 @@ const AssessmentService = {
     getAssessmentsWithResources,
 
     getResource,
-    MTB_TAG,
+    SHARED_ASSESSMENT_TAG,
 }
 
 
@@ -38,7 +38,7 @@ async function getAssessment(
         {}
     )
 
-    const returnResult = [{ ...result.data, tags: result.data.tags.filter((tag: string) => tag !== MTB_TAG) }]
+    const returnResult = [{ ...result.data, tags: result.data.tags.filter((tag: string) => tag !== SHARED_ASSESSMENT_TAG) }]
     return returnResult
 }
 
@@ -49,7 +49,7 @@ async function getAssessments(): Promise<Assessment[]> {
         {}
     )
 
-    const returnResult = result.data.items.filter((item: Assessment) => item.tags.includes(MTB_TAG)).map((item: Assessment) => ({ ...item, tags: item.tags.filter((tag: string) => tag !== MTB_TAG) }))
+    const returnResult = result.data.items.filter((item: Assessment) => item.tags.includes(SHARED_ASSESSMENT_TAG)).map((item: Assessment) => ({ ...item, tags: item.tags.filter((tag: string) => tag !== SHARED_ASSESSMENT_TAG) }))
     return returnResult
 }
 
