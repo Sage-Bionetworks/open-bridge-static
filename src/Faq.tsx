@@ -56,7 +56,7 @@ const Faq: FunctionComponent<{ onJoin: () => void }> = ({ onJoin }) => {
                     smartphones. The app is accessible through the Apple App Store and the
                     Google Play Store using an Apple or Google Account. We recommend that
                     participants use iPhone devices running at least iOS 16 and Android 
-                    devices running at least Android 6. Note that Google Play Store is not 
+                    devices running at least Android 7. Note that Google Play Store is not 
                     compatible with some Huawei devices.
                 </AnswerStyled>
                 <QuestionStyled>
