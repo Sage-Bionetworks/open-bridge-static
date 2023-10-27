@@ -146,7 +146,7 @@ export const webTabInfo: TabInfo[] = [
       <>
         <p>
           Make the Open Bridge app your own by adding custom messages, logo,
-          and color scheme. Review custom changes in real-time
+          and color scheme. Review custom changes in real-time.
         </p>
       </>
     ),
