@@ -20,7 +20,10 @@ const About: FunctionComponent<{}> = () => {
         <Grid item xs={12} lg={6}>
           <Box>
             <Typography variant="h3" color={theme.palette.text.secondary} mb={10}>
-           Lorem ipsum and you know the rest.
+            The Bridge Digital Health business unit was formed by Sage Bionetworks
+            in 2023 to develop our Digital Health platform and expertise into a 
+            turnkey service for academia and industry. Open Bridge is the result 
+            of that effort.
             </Typography>
            
           </Box>

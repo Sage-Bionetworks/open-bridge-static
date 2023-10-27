@@ -187,6 +187,8 @@ const Faq: FunctionComponent<{ onJoin: () => void }> = ({ onJoin }) => {
                     What studies are currently using Open Bridge?
                 </QuestionStyled>
                 <AnswerStyled>
+                {/*  TODO: figure out what text should go here */}
+
                     <p>
                         Lorem etc. etc.
                     </p>
