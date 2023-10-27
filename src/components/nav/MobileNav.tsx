@@ -1,5 +1,5 @@
 //import MobileDrawerMenuHeader from '@components/widgets/MobileDrawerMenuHeader'
-import {ReactComponent as Logo} from '@assets/mtb_logo_white.svg'
+import {ReactComponent as Logo} from '@assets/site_logo_white.svg'
 import ClearIcon from '@mui/icons-material/Clear'
 import Menu from '@mui/icons-material/Menu'
 import {Box, Drawer, IconButton, Link} from '@mui/material'

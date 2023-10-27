@@ -1,5 +1,5 @@
-import { ReactComponent as LogoSmall } from '@assets/mtb_logo_small.svg'
-import { ReactComponent as LogoLight } from '@assets/mtb_logo_static.svg'
+import { ReactComponent as LogoSmall } from '@assets/site_logo_small.svg'
+import { ReactComponent as LogoLight } from '@assets/site_logo_static.svg'
 import { Box, Hidden } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import Toolbar from '@mui/material/Toolbar'
@@ -64,7 +64,7 @@ const TopNav: FunctionComponent<AppTopNavProps> = ({
             mb: 2,
           }}>
           <a href="/">
-            <LogoSmall title="Mobile Toolbox" style={{ paddingLeft: '16px' }} />
+            <LogoSmall title="Open Bridge" style={{ paddingLeft: '16px' }} />
           </a>
           <MobileNav
             islight={islight}
@@ -88,7 +88,7 @@ const TopNav: FunctionComponent<AppTopNavProps> = ({
             mb: 3,
           }}>
           <a href="/">
-            <LogoLight title="Mobile Toolbox" style={{ paddingLeft: '16px' }} />
+            <LogoLight title="Open Bridge" style={{ paddingLeft: '16px' }} />
           </a>
 
           <Toolbar
