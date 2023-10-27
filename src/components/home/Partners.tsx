@@ -19,13 +19,13 @@ const Partners: FunctionComponent<{}> = () => {
         researchers, measurement scientists and technical experts with 
         proven success in multiple large-scale validation and development projects. 
         Dr. Mike Kellen leads the development of the 
-        Mobile Toolbox platform at Sage Bionetworks. 
+        Open Bridge platform at Sage Bionetworks. 
       </Typography>
       <Grid container rowSpacing={15} columnSpacing={{xs: 4, lg: 10}} mb={10}>
         <Grid item xs={12} lg={4} textAlign="center">
           <SageBio_Logo />
         </Grid>
-\        <Grid item xs={12} textAlign="center">
+        <Grid item xs={12} textAlign="center">
           <Button color="primary" variant="contained" href="/about-us">
             View Our Contributors
           </Button>

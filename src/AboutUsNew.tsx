@@ -339,7 +339,7 @@ const AboutUs: FunctionComponent<{}> = () => {
           researchers, measurement scientists and technical experts with proven
           success in multiple large-scale validation and development projects.
         </BodyText1>
-        <StyledH1>Pur Partners</StyledH1>
+        <StyledH1>Our Partners</StyledH1>
         <LogoContainer rowIndex={1}>
           {Array.from(orgImages.keys())
             .slice(0, 3)

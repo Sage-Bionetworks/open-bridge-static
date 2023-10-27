@@ -20,7 +20,7 @@ const About: FunctionComponent<{}> = () => {
         <Grid item xs={12} lg={6}>
           <Box>
             <Typography variant="h3" color={theme.palette.text.secondary} mb={10}>
-            Mobile Toolbox comprises a team of clinical colleagues, cognition researchers, measurement scientists and technical experts with proven success in multiple large-scale validation and development projects. Co-Principal Investigators Drs. Gershon and Mangravite are at Northwestern University and Sage Bionetworks respectively. Dr. Martin Silwinski of Penn State University leads the integration of the Mobile Toolbox collaboration with Mobile Monitoring of Cognitive Change (M2C2).
+           Lorem ipsum and you know the rest.
             </Typography>
            
           </Box>

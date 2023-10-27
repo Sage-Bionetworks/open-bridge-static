@@ -32,12 +32,10 @@ const Science: FunctionComponent<{}> = () => {
           <Typography variant="body1" mb={10} component="div">
             Open Bridge delivers cognitive and other health measures
             developed by content experts and validated for remote
-            administration. Our growing library of digital measures is derived
-            from well-established measurement systems such as .... Built on top of
-            Sage Bionetwork’s Mobile Health Platform that has supported 500k
-            research participants, Open Bridge provides tools for automated
-            iOS and Android app configuration, study management, and data
-            collection.
+            administration. Built on top of Sage Bionetworks’ Digital Health
+            Platform that has supported 500k research participants, Open Bridge
+            provides tools for automated iOS and Android app configuration,
+            study management, and data collection.
           </Typography>
         </Grid>
         <Grid item xs={12} lg={6}>

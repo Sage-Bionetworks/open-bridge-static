@@ -57,7 +57,7 @@ const info = [
     title: 'How It Works',
     intro:
       'The research team selects the assessments and designs the assessment schedule to fit their study’s unique needs.',
-    /*body: 'The Mobile Toolbox Study Builder supports flexible scheduling of assessments to meet most single-arm protocol requirements. Schedules can include dates for custom events such as clinic visits.', */
+    /*body: 'The Open Bridge Study Builder supports flexible scheduling of assessments to meet most single-arm protocol requirements. Schedules can include dates for custom events such as clinic visits.', */
     link: 'www.google.com',
     image: <Step1 width="100%" />,
   },
