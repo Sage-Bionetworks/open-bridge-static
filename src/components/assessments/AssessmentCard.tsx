@@ -12,7 +12,7 @@ import AssessmentImage from './AssessmentImage'
 const StyledCard = styled(Card)(({theme}) => ({
   width: theme.spacing(62),
   height: theme.spacing(100),
-  borderTop: `5px solid #EB3B5A`,
+  borderTop: `5px solid #8FD6FF`,
   textAlign: 'left',
   // border: '1px solid gray',
   borderRadius: 0,
