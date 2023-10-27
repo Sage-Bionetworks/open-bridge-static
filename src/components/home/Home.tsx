@@ -27,7 +27,7 @@ const Home: FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
                   component={'p'}
                   mb={0}
                   mt={10}>
-                  Open Bridge delivers digital tests of cognition to research study participants through a smartphone app, allowing researchers to conduct their studies remotely. Our mission includes the creation of a library of well-validated and easy-to-use remote health measures that are widely available to the entire research community particularly those studying cognitive function and aging.{' '}
+                  Open Bridge delivers digital tests of cognition to research study participants through a smartphone app, allowing researchers to conduct their studies remotely. Our mission includes the creation of a library of well-validated and easy-to-use remote health measures that are widely available to the entire research community&mdash;particularly those studying cognitive function and aging.{' '}
                 </Typography>
               </Grid>
               <Box
