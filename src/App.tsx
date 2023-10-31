@@ -64,7 +64,7 @@ function App() {
             sx={{ position: 'absolute', right: '10px', top: '11px' }}>
             <ClearIcon />
           </IconButton>
-          <div>Sign up for Mobile Toolbox</div>
+          <div>Sign up for Open Bridge</div>
           <Divider sx={{ mt: 3 }} />
         </DialogTitle>
 
@@ -75,11 +75,11 @@ function App() {
               href="https://studies.bridgedigital.health/"
               target="_blank"
               sx={{ fontSize: '16px', lineHeight: '20px' }}>
-              <strong>Mobile Toolbox</strong>
+              <strong>Open Bridge</strong>
             </Link>{' '}
           </Typography>
           <Typography component={'p'} mt={2} lineHeight="20px">
-            We are not accepting additional Beta Partners. If you are interested in receiving updates about Mobile Toolbox and early adoption, please join our mailing list{' '}
+            We are not accepting additional Beta Partners. If you are interested in receiving updates about Open Bridge and early adoption, please join our mailing list{' '}
             <Link
               href="https://forms.gle/HP7uJ4uhu3D2Vuwm9"
               target="_blank"

@@ -1,12 +1,6 @@
 import Loader from '@components/widgets/Loader'
 import PageShell from '@components/widgets/PageShell'
 import { useAsync } from '@helpers/AsyncHook'
-//import ArticleTwoToneIcon from '@mui/icons-material/ArticleTwoTone'
-//import CakeTwoToneIcon from '@mui/icons-material/CakeTwoTone'
-//import ChatBubbleTwoToneIcon from '@mui/icons-material/ChatBubbleTwoTone'
-//import FactCheckTwoToneIcon from '@mui/icons-material/FactCheckTwoTone'
-//import MenuBookTwoToneIcon from '@mui/icons-material/MenuBookTwoTone'
-//import StarsTwoToneIcon from '@mui/icons-material/StarsTwoTone'
 import TimerTwoToneIcon from '@mui/icons-material/TimerTwoTone'
 import VerifiedTwoToneIcon from '@mui/icons-material/VerifiedTwoTone'
 import {
@@ -170,19 +164,6 @@ const AssessmentDetail: FunctionComponent<AssessmentDetailProps> = ({
                     name={`${data.title}_img`}
                     resources={data.resources}
                     variant="detail"></AssessmentImage>
-
-                  {/*  <ThemeProvider theme={theme}>
-                    <Box mt={5}>
-                      <Typography component="p" paragraph>
-                        {' '}
-                        To learn more about this assessment and try it out
-                        please log into Mobile Toolbox.
-                      </Typography>
-                      <Button variant="outlined" color="secondary">
-                        Go to Login
-                      </Button>
-                    </Box>
-                  </ThemeProvider>*/}
                 </Box>
               </Grid>
               <Grid item xs={12} lg={6}>

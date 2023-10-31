@@ -20,7 +20,10 @@ const About: FunctionComponent<{}> = () => {
         <Grid item xs={12} lg={6}>
           <Box>
             <Typography variant="h3" color={theme.palette.text.secondary} mb={10}>
-            Mobile Toolbox comprises a team of clinical colleagues, cognition researchers, measurement scientists and technical experts with proven success in multiple large-scale validation and development projects. Co-Principal Investigators Drs. Gershon and Mangravite are at Northwestern University and Sage Bionetworks respectively. Dr. Martin Silwinski of Penn State University leads the integration of the Mobile Toolbox collaboration with Mobile Monitoring of Cognitive Change (M2C2).
+            The Bridge Digital Health business unit was formed by Sage Bionetworks
+            in 2023 to develop our Digital Health platform and expertise into a 
+            turnkey service for academia and industry. Open Bridge is the result 
+            of that effort.
             </Typography>
            
           </Box>

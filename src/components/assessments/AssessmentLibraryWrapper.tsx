@@ -84,12 +84,9 @@ const AssessmentLibraryWrapper: FunctionComponent<
         </Typography>
         <Typography variant="body1" maxWidth="700px" component={'p'} mb={3}>
           Our library of assessments includes a variety of domains, particularly within cognition. 
-          Here you will find the core Mobile Toolbox assessments, a short description of what each 
+          Here you will find the core Open Bridge assessments, a short description of what each 
           assessment is, and how long it takes to complete. To find additional details for each assessment, 
-          please click on the cards. Our library will continue to grow over time and include 
-          assessments from the NIH Toolbox®, Patient Reported Outcomes Measurement Information System (PROMIS ®), 
-          International Cognitive Ability Resource (ICAR), and Cognitive Neuroscience Test Reliability 
-          and Clinical applications for Schizophrenia (CNTRACs).
+          please click on the cards.
         </Typography>
         {/* <Link href="">Donwload Technical Manual</Link>*/}
         <AssessmentContainer maxWidth="xl">

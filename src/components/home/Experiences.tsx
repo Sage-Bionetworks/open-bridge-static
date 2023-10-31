@@ -159,7 +159,7 @@ const Experiences: FunctionComponent<{}> = () => {
               variant="h3"
               color={theme.palette.text.secondary}
               mb={10}>
-              Mobile toolbox has a web experience for researchers and a mobile
+              Open Bridge has a web experience for researchers and a mobile
               app experience for study participants. You don't have to have a
               software engineering team to create your own custom app.
             </Typography>

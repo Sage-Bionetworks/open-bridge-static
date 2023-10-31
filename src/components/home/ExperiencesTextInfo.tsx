@@ -129,7 +129,7 @@ export const webTabInfo: TabInfo[] = [
     image: ExperiencesWeb1,
   },
   {
-    title: 'Adherence dashboard - Coming soon!',
+    title: 'Adherence dashboard',
     body: (
       <>
         <p>
@@ -145,8 +145,8 @@ export const webTabInfo: TabInfo[] = [
     body: (
       <>
         <p>
-          Make the Mobile toolbox app your own by adding custom messages, logo,
-          and color scheme. Review custom changes in real-time
+          Make the Open Bridge app your own by adding custom messages, logo,
+          and color scheme. Review custom changes in real-time.
         </p>
       </>
     ),

@@ -20,14 +20,14 @@ const Home: FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
             <Grid container rowSpacing={1} columnSpacing={{xs: 4, lg: 5}}>
               {/*header */}
               <Grid item xs={12} lg={7}>
-                <Typography variant="h1">Mobile Toolbox</Typography>
+                <Typography variant="h1">Open Bridge</Typography>
                 <Typography
                   variant="largeBodyCopy"
                   maxWidth="800px"
                   component={'p'}
                   mb={0}
                   mt={10}>
-                  Mobile Toolbox delivers digital tests of cognition to research study participants through a smartphone app, allowing researchers to conduct their studies remotely. Our mission includes the creation of a library of well-validated and easy-to-use remote health measures that are widely available to the entire research community particularly those studying cognitive function and aging.{' '}
+                  Open Bridge delivers digital tests of cognition to research study participants through a smartphone app, allowing researchers to conduct their studies remotely. Our mission includes the creation of a library of well-validated and easy-to-use remote health measures that are widely available to the entire research community&mdash;particularly those studying cognitive function and aging.{' '}
                 </Typography>
               </Grid>
               <Box

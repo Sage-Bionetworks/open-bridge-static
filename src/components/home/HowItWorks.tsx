@@ -57,7 +57,7 @@ const info = [
     title: 'How It Works',
     intro:
       'The research team selects the assessments and designs the assessment schedule to fit their study’s unique needs.',
-    /*body: 'The Mobile Toolbox Study Builder supports flexible scheduling of assessments to meet most single-arm protocol requirements. Schedules can include dates for custom events such as clinic visits.', */
+    /*body: 'The Open Bridge Study Builder supports flexible scheduling of assessments to meet most single-arm protocol requirements. Schedules can include dates for custom events such as clinic visits.', */
     link: 'www.google.com',
     image: <Step1 width="100%" />,
   },
@@ -80,7 +80,7 @@ const info = [
   {
     title: 'How It Works',
     intro:
-      'Data is encrypted and uploaded to the Mobile Toolbox platform for analysis.',
+      'Data is encrypted and uploaded to the Open Bridge platform for analysis.',
     /* body: 'Data is encrypted and uploaded from each participant’s phone while it is connected to the internet with a WiFi or cellular data connection. Data is processed and curated and is available under controlled access.', */
     link: 'www.google.com',
     image: <Step4 width="100%" />,
