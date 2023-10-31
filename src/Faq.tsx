@@ -107,7 +107,7 @@ const Faq: FunctionComponent<{ onJoin: () => void }> = ({ onJoin }) => {
                 </QuestionStyled>
                 <AnswerStyled>
                     Open Bridge and Synapse operate under a strict governance process
-                    that includes <a href="https://studies.bridgedigital.health/MTB-ToS-v2-210923.pdf" target="_blank">Terms of Service</a> guidelines and operating procedures for
+                    that includes <a href="https://studies.bridgedigital.health/terms_of_service.pdf" target="_blank">Terms of Service</a> guidelines and operating procedures for
                     handling data, data security measures with strict information and
                     privacy-enhancing technologies, as well as the right of audit and
                     external reviews (WIRB 20112068). The Privacy-Enhancing Technologies
