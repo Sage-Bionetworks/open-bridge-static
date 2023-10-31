@@ -1,4 +1,4 @@
-name: deploy-open-bridge-static-staging
+name: deploy-open-bridge-static-prod
 
 on:
   push:
@@ -6,9 +6,6 @@ on:
 
 jobs:
   deploy:
-    permissions:
-      id-token: write
-      contents: read
     uses: ./.github/workflows/build-and-deploy.yaml
     with:
       branch: ${{ github.ref_name }}
