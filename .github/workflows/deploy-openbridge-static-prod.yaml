@@ -1,0 +1,13 @@
+name: deploy-open-bridge-static-prod
+
+on:
+  push:
+    branches: ["production"]
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/build-and-deploy.yaml
+    with:
+      branch: ${{ github.ref_name }}
+      destination_bucket: prod-bridgedigital-health-static-websitebucket-iadz6lysjo5v
+      distribution_id: E1DXTVP92OX5WR

@@ -6,9 +6,6 @@ on:
 
 jobs:
   deploy:
-    permissions:
-      id-token: write
-      contents: read
     uses: ./.github/workflows/build-and-deploy.yaml
     with:
       branch: ${{ github.ref_name }}
