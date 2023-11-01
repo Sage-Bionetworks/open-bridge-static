@@ -27,7 +27,7 @@ const Home: FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
                   component={'p'}
                   mb={0}
                   mt={10}>
-                  Open Bridge delivers digital tests of cognition to research study participants through a smartphone app, allowing researchers to conduct their studies remotely. Our mission includes the creation of a library of well-validated and easy-to-use remote health measures that are widely available to the entire research community&mdash;particularly those studying cognitive function and aging.{' '}
+                  Open Bridge delivers digital tests to research study participants through a smartphone app, allowing researchers to conduct their studies remotely. Our mission includes the creation of a library of well-validated and easy-to-use remote health measures that are widely available to the entire research community.{' '}
                 </Typography>
               </Grid>
               <Box
@@ -54,6 +54,7 @@ const Home: FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
               <HowItWorksDesktop />
             </Hidden>
           </Section>
+          <br/><br/><br/>
           {/*
           <Box
             sx={{
@@ -80,11 +81,11 @@ const Home: FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
           {/* <Section>
             <About />
           </Section>*/}
-          <Box bgcolor={colors.purpleTransparency2}>
+          {/*<Box bgcolor={colors.purpleTransparency2}>
             <Section>
               <Partners />
             </Section>
-          </Box>
+          </Box>*}
           {/* <Box bgcolor={colors.purpleTransparency2}>
             <Section>
               <Project />

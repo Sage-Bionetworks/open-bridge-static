@@ -81,7 +81,7 @@ const Footer: React.FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
         </Box>
         <Divider color="#F8F9FA"></Divider>
         <Typography variant="body1" component="p" mt={2}>
-          &#169; 2022
+          &#169; 2023
         </Typography>
       </Hidden>
       <Hidden mdUp>

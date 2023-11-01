@@ -15,8 +15,8 @@ const Partners: FunctionComponent<{}> = () => {
         Our Contributors
       </Typography>
       <Typography variant="body1" maxWidth={'600px'} component="p" mb={25}>
-        Open Bridge comprises a team of clinical colleagues, cognition 
-        researchers, measurement scientists and technical experts with 
+        Open Bridge comprises a team of clinical colleagues, 
+        researchers, measurement scientists, and technical experts with 
         proven success in multiple large-scale validation and development projects. 
         Dr. Mike Kellen leads the development of the 
         Open Bridge platform at Sage Bionetworks. 
