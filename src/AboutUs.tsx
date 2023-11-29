@@ -394,21 +394,13 @@ const AboutUs: FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
           <Grid item xs={12} lg={9}>
             <Typography component="p" variant="body1" maxWidth="700px">
               <p>
-              As a Technical Program Manager supporting digital health studies at 
-              Sage Bionetworks, my role is to drive technology forward in parallel 
-              with scientific studies. By supporting the technical software 
-              development arena, I am able to provide consistent policy and 
-              practice to the implementation of web, mobile, and server systems to 
-              execute clinical studies. My experience includes 11 years at Expedia 
-              Group including Agent Tools Sarbanes-Oxley Compliance Officer, 2 
-              years at Novinium, Inc as primary quality assurance tester and 
-              release management.
-              </p>
-              <p>
-              While my career is not dominantly scientific, my previous roles have 
-              provided a foundation for applying agile methodologies to the digital 
-              health space. My experiences have given me the ability to drive 
-              organizations to develop user friendly applications.
+              Ann Campton is a Senior Technical Program and Product Manager 
+              supporting digital health studies at Sage Bionetworks. Ann's role is 
+              to drive technology forward in parallel with scientific studies and 
+              methodologies. Her experience includes driving technical and 
+              science-based requirements, quality assurance, release management, 
+              and stakeholder engagement for the implementation of web, mobile, and
+              server systems to execute clinical studies.
               </p>
             </Typography>
           </Grid>
