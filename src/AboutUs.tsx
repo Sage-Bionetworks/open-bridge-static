@@ -249,18 +249,18 @@ const AboutUs: FunctionComponent<{onJoin: () => void}> = ({onJoin}) => {
           <Grid item xs={12} lg={9}>
             <Typography component="p" variant="body1" maxWidth="700px">
               <p>
-              Michael Kellen leads the Digital Health Business Unit at
-              Sage Bionetworks. Since 2009, the technology platforms and 
-              services team at Sage has supported open projects and challenges 
-              in the collaborative analysis of human health data through the 
-              development of the Synapse platform, and by providing support with
-              data hosting, curation, and analysis. The team has also supported 
-              the collection of human phenotypic data though the development of 
-              the Bridge platform. In 2023 the Digital Health work at Sage was
-              spun out into its own business unit with the vision of developing
-              it into a turnkey service for academia and industry. 
+              Michael Kellen leads the Digital Health Business Unit at Sage 
+              Bionetworks. Michael served as Sage’s initial CTO starting in 2010, 
+              and led the development of the technology platforms and services team
+              at Sage. This team has supported open projects and challenges in the 
+              collaborative analysis of human health data through the development 
+              of the Synapse platform, and by developing the Open Bridge system for 
+              collecting human phenotypic data in remote human health studies. In 
+              2023 Sage spun its Digital Health work into its own business unit 
+              with the vision of developing it into a turnkey service for academia 
+              and industry. 
               </p><p>
-              Michael has over 10 years experience developing software for 
+              Michael has over 20 years experience developing software for 
               academic and corporate users in the life sciences, and has brought
               several award-winning products to market in this space covering 
               simulation, data capture and analysis workflow, data integration, 
