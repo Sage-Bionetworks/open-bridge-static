@@ -30,7 +30,7 @@ const Science: FunctionComponent<{}> = () => {
         columnSpacing={{xs: 4, lg: 12}}>
         <Grid item xs={12} lg={6}>
           <Typography variant="body1" mb={10} component="div">
-            Open Bridge delivers cognitive and other health measures
+            Open Bridge delivers health measures
             developed by content experts and validated for remote
             administration. Built on top of Sage Bionetworks’ Digital Health
             Platform that has supported 500k research participants, Open Bridge

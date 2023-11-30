@@ -44,8 +44,8 @@ const Faq: FunctionComponent<{ onJoin: () => void }> = ({ onJoin }) => {
                 </AnswerStyled>
                 <QuestionStyled>How much does Open Bridge cost?</QuestionStyled>
                 <AnswerStyled>
-                    The cost for Open Bridge for Beta contributors and early adopters
-                    is currently subsidized by existing development projects but will
+                    The cost for Open Bridge for early adopters
+                    will be determined on a case-by-case basis but will
                     transition to a tiered cost model. The app is and will always be free
                     for download and use by study participants. There are no in-app
                     purchases or advertising.
@@ -163,8 +163,7 @@ const Faq: FunctionComponent<{ onJoin: () => void }> = ({ onJoin }) => {
                     Does Open Bridge support languages besides English?
                 </QuestionStyled>
                 <AnswerStyled>
-                    Open Bridge is English only. Open Bridge Spanish-language App
-                    and Assessments are in active development.
+                    Open Bridge is English only. Support for other languages is available as custom additional work.
                 </AnswerStyled>
                 <QuestionStyled>
                     How will participants know which study to join?
@@ -183,16 +182,17 @@ const Faq: FunctionComponent<{ onJoin: () => void }> = ({ onJoin }) => {
                     response to your question, but you may see an update to our FAQs or
                     receive an update from our <a href="https://forms.gle/CgAWzq8j48PBvo1H7" target="_blank">mailing list</a>.
                 </AnswerStyled>
-                <QuestionStyled>
+                <br/>
+                {/* <QuestionStyled>
                     What studies are currently using Open Bridge?
                 </QuestionStyled>
                 <AnswerStyled>
-                {/*  TODO: figure out what text should go here */}
+                 TODO: figure out what text should go here 
 
                     <p>
                         Lorem etc. etc.
                     </p>
-                </AnswerStyled>
+                </AnswerStyled>*/}
             </Section>
         </PageShell>
     )

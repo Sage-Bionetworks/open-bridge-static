@@ -72,7 +72,7 @@ const info = [
   {
     title: 'How It Works',
     intro:
-      'Participants can complete brief cognitive assessments (<10 minutes each), view the study schedule, and receive reminders remotely on their smartphone.',
+      'Participants can complete brief assessments (<10 minutes each), view the study schedule, and receive reminders remotely on their smartphone.',
     /* body: 'Participants can see their upcoming and past activities in the App. They can optionally receive reminder notifications. ', */
     link: 'www.google.com',
     image: <Step3 width="100%" />,
